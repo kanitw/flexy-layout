@@ -337,7 +337,7 @@
                     }
                 }
                 //buffer block takes all available space
-                bufferBlock.moveLength(elementLength - splitterCount * 5);
+                bufferBlock.moveLength(elementLength - splitterCount * 1);
 
                 for (i = 0; i < l; i++) {
                     block = blocks[i];
